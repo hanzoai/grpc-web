@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="grpc-web" width="880"></p>
+
 # gRPC-Web: Typed Frontend Development
 
 
