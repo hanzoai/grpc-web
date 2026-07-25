@@ -1,4 +1,4 @@
-module github.com/traefik/grpc-web
+module github.com/hanzoai/grpc-web
 
 go 1.19
 
