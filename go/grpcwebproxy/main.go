@@ -21,7 +21,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/pflag"
-	"github.com/traefik/grpc-web/go/grpcweb"
+	"github.com/hanzoai/grpc-web/go/grpcweb"
 	"golang.org/x/net/context"
 	"golang.org/x/net/trace" // register in DefaultServerMux
 	"google.golang.org/grpc"
