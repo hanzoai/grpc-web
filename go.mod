@@ -1,6 +1,6 @@
 module github.com/hanzoai/grpc-web
 
-go 1.19
+go 1.26.5
 
 require (
 	github.com/cenkalti/backoff/v4 v4.2.1

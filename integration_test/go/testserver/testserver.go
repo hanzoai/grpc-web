@@ -172,7 +172,7 @@ func (s *testSrv) PingError(ctx context.Context, ping *testproto.PingRequest) (*
 	if ping.FailureType == testproto.PingRequest_CODE {
 		msg = "Intentionally returning error for PingError"
 	}
-	return nil, status.Errorf(codes.Code(ping.ErrorCodeReturned), msg)
+	return nil, status.Error(codes.Code(ping.ErrorCodeReturned), msg)
 }
 
 func (s *testSrv) ContinueStream(ctx context.Context, req *testproto.ContinueStreamRequest) (*google_protobuf.Empty, error) {
@@ -180,7 +180,7 @@ func (s *testSrv) ContinueStream(ctx context.Context, req *testproto.ContinueStr
 	channel, ok := s.streams[req.GetStreamIdentifier()]
 	s.streamsMutex.Unlock()
 	if !ok {
-		return nil, status.Errorf(codes.NotFound, fmt.Sprintf("stream identifier not found: %s", req.GetStreamIdentifier()))
+		return nil, status.Errorf(codes.NotFound, "stream identifier not found: %s", req.GetStreamIdentifier())
 	}
 	channel <- true
 	return &google_protobuf.Empty{}, nil
