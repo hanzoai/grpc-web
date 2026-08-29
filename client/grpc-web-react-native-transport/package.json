@@ -21,8 +21,8 @@
     "@improbable-eng/grpc-web": ">=0.13.0"
   },
   "devDependencies": {
-    "@improbable-eng/grpc-web": "^0.13.0",
-    "google-protobuf": "^3.14.0",
-    "typescript": "^4.1.3"
+    "@improbable-eng/grpc-web": "^0.15.0",
+    "google-protobuf": "^4.0.2",
+    "typescript": "7.0.2"
   }
 }
