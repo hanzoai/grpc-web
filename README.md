@@ -2,6 +2,8 @@
 
 # gRPC-Web: Typed Frontend Development
 
+[![Open in Hanzo](https://hanzo.app/badges/open-in-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzoai/grpc-web&ref=main&action=open) [![Edit with Hanzo](https://hanzo.app/badges/edit-with-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzoai/grpc-web&ref=main&action=edit)
+
 
 [![CircleCI](https://circleci.com/gh/improbable-eng/grpc-web/tree/master.svg?style=svg)](https://circleci.com/gh/improbable-eng/grpc-web/tree/master)
 [![Sauce Test Status](https://app.saucelabs.com/buildstatus/ImprobableEngBot)](https://app.saucelabs.com/u/ImprobableEngBot)
